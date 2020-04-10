@@ -30,4 +30,10 @@ test("see if there is a text - My App text for test", () => {
 
   //Assertion
   expect(header).toBeInTheDocument();
+  expect(header).toBeTruthy();
+  expect(header).not.toBeFalsy();
 })
+
+
+
+
